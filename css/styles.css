@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family= Open+Sans:wght@400;700 & display =swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    background-color: #E8E8E8;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+header {
+    background-color: #FFE500;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    color: #636363;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product-details {
+    padding: 20px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    cursor: default;
+}
+
+.card {
+    border: 1px solid #D9D9D9;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+
+.card-top {
+    border-bottom: 1px solid #D9D9D9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-bottom {
+    padding: 10px 20px 20px 20px;
+}
+
+.card-bottom h3 {
+    color: #0CAF1D;
+    font-size: 20px;
+    cursor: default;
+}
+
+.card-bottom h4 {
+    color: #636363;
+    font-size: 12px;
+    cursor: default;
+
+}
+
+.card-bottom p {
+    margin: 10px 0;
+    color: #636363;
+    font-size: 12px;
+    cursor: default;
+}
+
+.card-top img {
+    width: 220px;
+}
+
+.category-container {
+    display: flex;
+    cursor: default;
+}
+
+.category {
+    margin-right: 20px;
+    padding: 0 20px;
+    background-color: #636363;
+    border-radius: 4px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-page-container {
+    width: 220px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.btn {
+    border-radius: 4px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #3483FA;
+}
+
+.btn-blue {
+    background-color: #3483FA;
+    color: #FFF;
+}
+
+.btn-white {
+    background-color: #FFF;
+    color: #3483FA;
+    border: 1px solid #3483FA;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
