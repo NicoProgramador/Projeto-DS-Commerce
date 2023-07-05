@@ -1,49 +1,49 @@
 @import url("styles.css");
 
-#product-details {
+#product-details-section {
     padding: 20px 0;
 }
 
-.product-details-top {
+.dsc-product-details-top {
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
-.product-details-bottom {
+.dsc-product-details-bottom {
     padding: 10px 20px 20px 20px;
 }
 
-.product-details-bottom h3 {
+.dsc-product-details-bottom h3 {
     color: var(--dsc-color-font-secondary);
     font-size: 20px;
     cursor: default;
 }
 
-.product-details-bottom h4 {
+.dsc-product-details-bottom h4 {
     color: var(--dsc-color-font-primary);
     font-size: 12px;
     cursor: default;
 
 }
 
-.product-details-bottom p {
+.dsc-product-details-bottom p {
     margin: 10px 0;
     color: var(--dsc-color-font-primary);
     font-size: 12px;
     cursor: default;
 }
 
-.product-details-top img {
+.dsc-product-details-top img {
     width: 220px;
 }
 
-.category-container {
+.dsc-category-container {
     display: flex;
     cursor: default;
 }
 
-.category {
+.dsc-category {
     margin-right: 20px;
     padding: 0 20px;
     background-color: var(--dsc-color-bg-tertiary);
