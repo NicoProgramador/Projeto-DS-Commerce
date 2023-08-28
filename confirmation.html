@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSCommerce</title>
 
-    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/confirmation.css">
 
 </head>
 <body>
@@ -14,26 +14,27 @@
             <h1>DSCommerce</h1>
             <div class="dsc-configs-nav">
                 <div>
+                    <img src="images/Settings.svg" alt="Configurações">
                     <img src="images/Cart.svg" alt="Carrinho">
                 </div>
-                <div>
-                    <a href="#">Entrar</a>
+                <div class="teste">
+                    <p>alex@gmail.com</p>
+                    <a href="#">Sair</a>
                 </div>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section id="cart-container-section" class="dsc-container">
+        <section id="confirmation-section" class="dsc-container">
             <div class="dsc-card dsc-mb20">
                 <div class="dsc-cart-item-container dsc-line-bottom">
                     <div class="dsc-cart-item-left">
                         <img src="images/computer.png" alt="Computador">
                         <div class="dsc-cart-item-description">
                             <h3>Computador Gamer XT</h3>
-                            <div class="dsc-cart-item-quantity-container">
-                                <div class="dsc-btn-add-remove">-</div>
+                            <div class="dsc-confirmation-quantity-container">
                                 <p>1</p>
-                                <div class="dsc-btn-add-remove">+</div>
                             </div>
                         </div>
                     </div>
@@ -46,16 +47,14 @@
                     <div class="dsc-cart-item-left">
                         <img src="images/computer.png" alt="Computador">
                         <div class="dsc-cart-item-description">
-                            <h3>Computador Gamer XT</h3>
-                            <div class="dsc-cart-item-quantity-container">
-                                <div class="dsc-btn-add-remove">-</div>
-                                <p>1</p>
-                                <div class="dsc-btn-add-remove">+</div>
+                            <h3>Computador Outro</h3>
+                            <div class="dsc-confirmation-quantity-container">
+                                <p>2</p>
                             </div>
                         </div>
                     </div>
                     <div class="dsc-cart-item-right">
-                        R$ 5000,00
+                        R$ 10000,00
                     </div>
                 </div>
 
@@ -64,10 +63,13 @@
                 </div>
             </div>
         
+            <div class="dsc-confirmation-message dsc-mb20">
+                Pedido Realizado! Número 35.
+            </div>
+
             <div>
                 <div class="dsc-btn-page-container">
-                    <div class="dsc-btn dsc-btn-blue">Finalizar Pedido</div>
-                    <div class="dsc-btn dsc-btn-white">Continuar Comprando</div>
+                    <div class="dsc-btn dsc-btn-white">Início</div>
                 </div>
             </div>
         </section>

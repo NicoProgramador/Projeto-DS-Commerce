@@ -15,6 +15,7 @@
     --dsc-color-font-primary: #636363;
     --dsc-color-font-secondary: #0caf1d;
     --dsc-color-font-tertiary: #fff;
+    --dsc-color-font-quaciary: #232F3E;
     --dsc-color-font-placeholder: #d9d9d9;
 
     --dsc-color-error: #f33;
@@ -50,13 +51,22 @@ a, a:hover {
     cursor: default;
 }
 
-
 .dsc-mb20 {
     margin-bottom: 20px;
 }
 
 .dsc-mt20 {
     margin-top: 20px;
+}
+
+.dsc-configs-nav {
+    display: flex;
+    align-items: center;
+}
+
+.dsc-configs-nav img {
+    margin-right: 20px;
+    cursor: pointer;
 }
 
 /*----------------------------------------------------*/
