@@ -1,0 +1,35 @@
+@import url("styles.css");
+
+#form-product-section {
+    padding: 20px 0;
+}
+
+.dsc-form-product-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.dsc-form-product-button {
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+}
+
+.dsc-logged-user {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.dsc-logged-user p {
+    font-size: 12px;
+}
+
+@media (min-width: 576px) {
+    
+    #form-product-section {
+        padding: 40px 0;
+    }
+}
